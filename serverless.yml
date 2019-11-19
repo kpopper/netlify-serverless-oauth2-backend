@@ -4,16 +4,16 @@ provider:
   runtime: nodejs10.x
   stage: ${opt:stage, self:custom.defaultStage}
   environment:
-    GIT_HOSTNAME: "/kpopper.github.io/oauth/${opt:stage, self:provider.stage}/GIT_HOSTNAME"
-    KMS_KEY: "/kpopper.github.io/oauth/${opt:stage, self:provider.stage}/KMS_KEY"
-    OAUTH_AUTHORIZE_PATH: "/kpopper.github.io/oauth/${opt:stage, self:provider.stage}/OAUTH_AUTHORIZE_PATH"
-    OAUTH_CLIENT_ID: "/kpopper.github.io/oauth/${opt:stage, self:provider.stage}/OAUTH_CLIENT_ID"
-    OAUTH_CLIENT_SECRET: "/kpopper.github.io/oauth/${opt:stage, self:provider.stage}/OAUTH_CLIENT_SECRET"
-    OAUTH_SCOPES: "/kpopper.github.io/oauth/${opt:stage, self:provider.stage}/OAUTH_SCOPES"
-    OAUTH_TOKEN_PATH: "/kpopper.github.io/oauth/${opt:stage, self:provider.stage}/OAUTH_TOKEN_PATH"
-    REDIRECT_URL: "/kpopper.github.io/oauth/${opt:stage, self:provider.stage}/REDIRECT_URL"
+    GIT_HOSTNAME: "/iankynnersley.co.uk/oauth/${opt:stage, self:provider.stage}/GIT_HOSTNAME"
+    KMS_KEY: "/iankynnersley.co.uk/oauth/${opt:stage, self:provider.stage}/KMS_KEY"
+    OAUTH_AUTHORIZE_PATH: "/iankynnersley.co.uk/oauth/${opt:stage, self:provider.stage}/OAUTH_AUTHORIZE_PATH"
+    OAUTH_CLIENT_ID: "/iankynnersley.co.uk/oauth/${opt:stage, self:provider.stage}/OAUTH_CLIENT_ID"
+    OAUTH_CLIENT_SECRET: "/iankynnersley.co.uk/oauth/${opt:stage, self:provider.stage}/OAUTH_CLIENT_SECRET"
+    OAUTH_SCOPES: "/iankynnersley.co.uk/oauth/${opt:stage, self:provider.stage}/OAUTH_SCOPES"
+    OAUTH_TOKEN_PATH: "/iankynnersley.co.uk/oauth/${opt:stage, self:provider.stage}/OAUTH_TOKEN_PATH"
+    REDIRECT_URL: "/iankynnersley.co.uk/oauth/${opt:stage, self:provider.stage}/REDIRECT_URL"
     TZ: "utc"
-    TARGET_ORIGIN: "/kpopper.github.io/oauth/${opt:stage, self:provider.stage}/TARGET_ORIGIN"
+    TARGET_ORIGIN: "/iankynnersley.co.uk/oauth/${opt:stage, self:provider.stage}/TARGET_ORIGIN"
   iamRoleStatements:
     - Effect: Allow
       Action:
