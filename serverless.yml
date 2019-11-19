@@ -19,7 +19,7 @@ provider:
       Action:
         - ssm:DescribeParameters
         - ssm:GetParameters
-      Resource: "arn:aws:ssm:${opt:region, self:provider.region}:*:parameter/kpopper.github.io/oauth/${opt:stage, self:provider.stage}/*"
+      Resource: "arn:aws:ssm:${opt:region, self:provider.region}:*:parameter/iankynnersley.co.uk/oauth/${opt:stage, self:provider.stage}/*"
     - Effect: Allow
       Action:
         - kms:Decrypt
